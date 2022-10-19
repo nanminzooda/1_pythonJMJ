@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>class &amp; id 선택자</title>
+  <style type="text/css">
+  /* class 선택자 [요소명.class명 - 요소명 생략가능! ] */
+  .note {
+  color:red;
+  }
+  .note2 {
+  color:blue;
+  }
+  /* id 선택자 [요소명#id명 - 요소명 생략 가능! ] */
+  #nav{
+  list-style-type: none;
+  }
+  </style>
+
+</head>
+<body>
+
+<h1>class 선택자와 id 선택자</h1>
+
+<h2>class 선택자</h2>
+<p class="note">문서 내에서 여러번 사용될 수 있는 선택자로 클래스를 구분할 때는 점(.)을 이용합니다.</p>
+<p>클래스를 선택자로 사용할 경우 요소명을 생략할 수 있습니다. </p>
+
+<h2>class 선택자</h2>
+<p class="note2">id 선택자는 중복을 허용하지 않습니다. 요소명과 아이디명을 구분 할때는 파운드 (#) 기호를 사용합니다. </p>
+<ul id="nav">
+  <li><a href="">홈</a></li>
+  <li><a href="">회원가입</a></li>
+  <li><a href="">사이트맵</a></li>
+  <li><a href="">쉬어가기</a></li>
+</ul>
+
+// id는 식별자라서 하나만 있어야하고 (개발자에게 양보하기) ###
+// class는 여러개 있어도 된다. 그룹 여러개로 묶이기. ***
+// 그리고 클래스는 중복이 된다 !
+
+</body>
+</html>
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>자바 스크립트 테스트3</title>
+
+    <script type="text/javascript">
+      // 여기는 자바 스크립트를 쓰는 영역입니다.
+      var names = ["피카츄", "라이츄", "파이리"] // names는 리스트랑 굉장히 유사한 개념 // 자바의 인덱스가 궁금해 난
+
+      function showNames(){
+        for(var i=0; i<3; i++){ //i를 0으로 초기화시켜서 관찰 ! 그리고 i++는 i=i+1 이랑 똑같아요
+          document.write(names[i]+" / ");
+          }
+        }
+
+
+    </script>
+</head>
+
+
+<body>
+<button onclick="showNames()">이름보기</button>
+</body>
+</html>

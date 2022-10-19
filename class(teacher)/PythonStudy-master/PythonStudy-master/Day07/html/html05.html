@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>주소</title>
+</head>
+<body>
+<h1>주소 삽입하기</h1>
+<p>웹문서의 아래쪽에 연락처(이메일 주소 포함) 및 제작자, 저작권정보등을 표시 할 수
+    있습니다. 이때 연락처 정보는 address 요소로 정의 할 수 있는데 address 요소 안에는
+    인라인 요소와 텍스트는 포함될수 있지만 블록 요소는 포함 할 수 없습니다.
+</p>
+<address>서울 특별시 서대문구 신촌동 <br/>
+    tel:111-2222 fax:555-5555<br/>
+    copyright@2022 All Night!
+</address>
+
+1) Block 태그
+
+Block 태그는 box를 치는 태그들이라고 생각하면 편하다.
+전체적인 틀을 짠다던지 구조를 만들 때 사용하는 태그들은 Block 태그들이다.
+특징은 아래와 같다.
+
+항상 새로운 줄에 태그가 생성
+좌우 너비가 100%라서 한 줄을 독차지
+오른쪽에 공간이 남아있더라도 새로운 태그는 다음 줄에 생성된다.
+
+<!--
+<address>, <article>, <aside>, <audio>,
+<blockquote>, <canvas>, <dd>, <div>, <dl>,
+<fieldset>, <figcaption>, <figure>, <footer>,
+<form>, <h1>, <h2>, <h3>, <h4>, <h5>, <h6>, <header>,
+<hgroup>, <hr>, <noscript>, <ol>, <output>, <p>, <pre>,
+<section>, <table>, <ul>, <video>
+-->
+
+2) Inline 태그
+
+Inline 태그는 위에 block 태그와는 다르게 내용을 적는 태그라 생각하면 된다.
+블록 태그로 짜여진틀 안에 내용을 적을 때 사용하는 태그들이다. 특징은 아래와 같다
+
+좌우 공간을 필요한 만큼만 차지한다.
+이전 이후 태그 사이에 공간이 있다면 그 공간에 배치된다.
+다른 태그와 같은 줄에 배치될 수 있다.
+
+<!--
+<a>, <abbr>, <acronym>, <b>, <bdo>, <big>,
+<br/>, <button>, <cite>, <code>, <dfn>, <em>,
+<i>, <img>, <input>, <kbd>, <label>, <map>, <object>,
+<q>, <samp>, <small>, <script>, <select>, <span>,
+<strong>, <sub>, <sup>, <textarea>, <tt>, <var>
+-->
+</body>
+</html>

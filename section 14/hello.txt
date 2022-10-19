@@ -1,0 +1,4 @@
+hello this is JangMinju
+Python cant read Korean. so do not use Korean.
+Hello again.
+Nice to meet you again.
